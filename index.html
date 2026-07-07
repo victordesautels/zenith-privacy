@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zenith — Know your safe time to tan</title>
+<meta name="description" content="Zenith watches the UV forecast for your location and tells you the best time to tan — with alerts and a burn-time estimate for your skin.">
+<style>
+  :root{
+    --bg:#fbfaf7; --text:#1c1b19; --muted:#6b6862; --rule:#eceae5; --link:#c85e08;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14130f; --text:#eceae4; --muted:#a19d94; --rule:#2a2822; --link:#ffb265; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; background:var(--bg); color:var(--text);
+    font:18px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display:flex; align-items:center; justify-content:center; padding:32px 22px;
+  }
+  .card{ max-width:560px; text-align:center; }
+  .logo{
+    width:104px; height:104px; border-radius:26px; margin:0 auto 26px;
+    background:
+      radial-gradient(circle at 50% 58%, #fffdf4 0 14%, transparent 15%),
+      linear-gradient(160deg,#ffd06b,#ff7a1a 60%,#ef3e12);
+    box-shadow:0 12px 40px rgba(232,114,12,.28);
+  }
+  h1{ font-size:2.6rem; letter-spacing:-0.03em; margin:0 0 6px; }
+  .tag{ font-size:1.15rem; color:var(--muted); margin:0 0 28px; }
+  p{ color:var(--text); }
+  .lede{ color:var(--muted); font-size:1.02rem; }
+  .links{ margin-top:30px; padding-top:24px; border-top:1px solid var(--rule); font-size:0.98rem; }
+  a{ color:var(--link); text-decoration:none; border-bottom:1px solid color-mix(in srgb,var(--link) 35%,transparent); }
+  a:hover{ border-bottom-color:var(--link); }
+  .foot{ margin-top:22px; color:var(--muted); font-size:0.82rem; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo" aria-hidden="true"></div>
+    <h1>Zenith</h1>
+    <p class="tag">Know your safe time to tan.</p>
+    <p class="lede">Zenith watches the UV forecast for your exact location, finds your tanning windows for the day, and pings you the moment the sun is strong enough — with a burn-time estimate tuned to your skin. No account, no ads, no tracking.</p>
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+    <p class="foot">© 2026 Zenith</p>
+  </main>
+</body>
+</html>

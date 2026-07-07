@@ -1,0 +1,181 @@
+<!doctype html>
+<!--
+  Zenith — Privacy Policy (static, self-contained; safe to host anywhere).
+  BEFORE PUBLISHING replace the two placeholders (shown highlighted on the page):
+    • [Developer Name]  — the legal person/entity that appears as the App Store seller
+    • [contact email]   — a support address you actually monitor
+  Then update the dates if needed.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Zenith</title>
+<meta name="robots" content="index,follow">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --panel: #ffffff;
+    --text: #1c1b19;
+    --muted: #6b6862;
+    --rule: #eceae5;
+    --accent: #e8720c;
+    --mark-bg: #ffe9c7;
+    --mark-text: #7a3d00;
+    --link: #c85e08;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14130f;
+      --panel: #1c1b17;
+      --text: #eceae4;
+      --muted: #a19d94;
+      --rule: #2a2822;
+      --accent: #ffab52;
+      --mark-bg: #4a3410;
+      --mark-text: #ffd9a3;
+      --link: #ffb265;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 0 20px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 0 80px; }
+  header.masthead {
+    display: flex; align-items: center; gap: 14px;
+    padding-bottom: 22px; margin-bottom: 30px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .logo {
+    width: 46px; height: 46px; border-radius: 12px; flex: none;
+    background:
+      radial-gradient(circle at 50% 58%, #fffdf4 0 15%, transparent 16%),
+      linear-gradient(160deg, #ffd06b, #ff7a1a 60%, #ef3e12);
+  }
+  h1 { font-size: 1.9rem; line-height: 1.15; margin: 0; letter-spacing: -0.02em; }
+  .dates { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+  h2 {
+    font-size: 1.22rem; letter-spacing: -0.01em;
+    margin: 2.4em 0 0.5em; padding-top: 0.4em;
+  }
+  h3 { font-size: 1.02rem; margin: 1.5em 0 0.3em; }
+  p, li { color: var(--text); }
+  a { color: var(--link); text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--link) 35%, transparent); }
+  a:hover { border-bottom-color: var(--link); }
+  ul { padding-left: 1.25em; }
+  li { margin: 0.3em 0; }
+  strong { font-weight: 650; }
+  .tldr {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 8px 0 4px;
+  }
+  .tldr p { margin: 0; }
+  mark {
+    background: var(--mark-bg); color: var(--mark-text);
+    padding: 0 5px; border-radius: 4px; font-weight: 600;
+    white-space: nowrap;
+  }
+  footer { margin-top: 48px; padding-top: 22px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.88rem; }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 2.4em 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="logo" aria-hidden="true"></div>
+    <div>
+      <h1>Privacy Policy</h1>
+      <div class="dates">Zenith · Effective July 6, 2026 · Last updated July 6, 2026</div>
+    </div>
+  </header>
+
+  <div class="tldr">
+    <p><strong>The short version.</strong> Zenith is a UV-index and tanning app with <strong>no accounts, no ads, no analytics, and no tracking</strong>. We operate no servers and do not collect, store, or sell your personal information. The app uses your device's location <strong>only</strong> to look up the UV forecast for where you are, and your preferences stay <strong>on your device</strong>.</p>
+  </div>
+
+  <h2>Who this policy covers</h2>
+  <p>This policy applies to the <strong>Zenith</strong> iOS app (“Zenith,” “the app,” “we,” “us”). It explains what the app accesses, why, and the very limited cases where data leaves your device.</p>
+
+  <h2>Information the app accesses</h2>
+
+  <h3>Location (approximate)</h3>
+  <p>When you use the app, it requests your location so it can fetch the UV-index forecast for your area. The app requests <strong>reduced (kilometer-level) accuracy</strong> — it does not need or use your precise position. Your coordinates are:</p>
+  <ul>
+    <li>Sent to <strong>Open-Meteo</strong> (our weather-data provider) solely to return the forecast for that location.</li>
+    <li>Passed to <strong>Apple’s</strong> geocoding service to convert the coordinate into a nearby place name (e.g., “Honolulu”) shown in the app.</li>
+  </ul>
+  <p>Your location is used only to service these requests. <strong>We do not store your location, associate it with any identifier, or use it to track you.</strong> There is no account to link it to.</p>
+
+  <h3>App settings</h3>
+  <p>Your preferences — UV alert threshold, skin type, and whether notifications are on — are stored <strong>locally on your device</strong>. They never leave your device and are removed when you delete the app.</p>
+
+  <h3>Notifications</h3>
+  <p>If you enable alerts, Zenith schedules <strong>local notifications</strong> on your device based on the forecast. These are generated entirely on-device. We use no push servers, and no device token or notification data is transmitted to us or anyone else.</p>
+
+  <h2>Information the app does NOT collect</h2>
+  <p>Zenith does <strong>not</strong> collect, request, or transmit:</p>
+  <ul>
+    <li>Names, email addresses, phone numbers, or any account/registration details (there is no sign-up)</li>
+    <li>Contacts, photos, calendars, health records, or files</li>
+    <li>Advertising identifiers (IDFA) — the app shows no ads</li>
+    <li>Analytics, usage/behavioral data, or crash reports (there is no analytics or crash-reporting SDK)</li>
+    <li>Any data used for <strong>tracking</strong> across apps or websites. Zenith does not track you, so it presents no App Tracking Transparency prompt.</li>
+  </ul>
+
+  <h2>How the app uses information</h2>
+  <p>The only processing is functional: your approximate location is used to retrieve and display the UV forecast, compute tanning windows and a burn-time estimate, and schedule the alerts you ask for. That’s it.</p>
+
+  <h2>Third-party services</h2>
+  <p>Zenith relies on two third parties strictly to provide its core function:</p>
+  <ul>
+    <li><strong>Open-Meteo</strong> — provides the UV-index forecast. The app sends latitude/longitude to Open-Meteo’s API to receive the forecast. No account, API key, or personal identifier is sent. See <a href="https://open-meteo.com/en/terms" rel="noopener">open-meteo.com/en/terms</a>.</li>
+    <li><strong>Apple</strong> — standard iOS location and geocoding services provided by your device’s operating system. Apple’s handling is governed by the <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>.</li>
+  </ul>
+  <p>We have no other third-party SDKs, trackers, or data partners.</p>
+
+  <h2>Data retention</h2>
+  <p>We retain <strong>nothing</strong>, because we operate no servers and receive no personal data. Settings and any cached forecast live only on your device and are deleted when you uninstall the app. Any processing performed by Open-Meteo or Apple is subject to their own practices, linked above.</p>
+
+  <h2>Data sharing and sale</h2>
+  <p>We do <strong>not</strong> sell, rent, or share your personal information with anyone. The only data transmission is the approximate location sent to Open-Meteo and Apple to fulfill your request, as described above.</p>
+
+  <h2>Your choices and controls</h2>
+  <ul>
+    <li><strong>Location:</strong> Allow, limit, or deny access anytime in <strong>iOS Settings → Privacy &amp; Security → Location Services → Zenith</strong>. Without location, the app can’t fetch a local forecast.</li>
+    <li><strong>Notifications:</strong> Turn alerts off inside Zenith, or in <strong>iOS Settings → Notifications → Zenith</strong>.</li>
+    <li><strong>Delete everything:</strong> Removing the app deletes all of its on-device data.</li>
+  </ul>
+
+  <h2>Children’s privacy</h2>
+  <p>Zenith is rated <strong>4+</strong>, is not directed at children, and does not knowingly collect personal information from anyone, including children under 13 (or the equivalent minimum age in your region). Because the app collects no personal data and requires no account, there is nothing for a child to submit to us.</p>
+
+  <h2>Your rights (GDPR, UK GDPR, CCPA/CPRA and similar)</h2>
+  <p>Depending on where you live, you may have rights to access, correct, delete, or restrict the processing of your personal data, and to not be discriminated against for exercising them. Because Zenith does not collect or store your personal data on any server we control, we hold nothing to access, export, or delete — the data the app uses stays on your device and under your control. We do <strong>not</strong> sell or “share” personal information as those terms are defined under U.S. state privacy laws. For questions about your rights, contact us below.</p>
+
+  <h2>Security</h2>
+  <p>Requests to the weather service are made over encrypted connections (HTTPS). Because no personal data is stored on servers we control (we have none), there is no server-side store to breach. On-device data is protected by iOS’s standard app sandboxing and device security.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If we change this policy, we will update the “Last updated” date above and post the new version at this same URL. Material changes will be reflected in a future app update.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your privacy? Contact <mark>[Developer Name]</mark> at <mark>[contact email]</mark>.</p>
+
+  <footer>
+    © 2026 <mark>[Developer Name]</mark>. Zenith is not affiliated with Open-Meteo or Apple Inc.
+  </footer>
+
+</div>
+</body>
+</html>
